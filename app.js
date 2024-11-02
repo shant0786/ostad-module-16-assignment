@@ -1,5 +1,15 @@
 const express = require("express");
+// const mongoose = require("mongoose");
+// const dotenv = require("dotenv");
+// const cors = require("cors");
+// const hpp = require("hpp");
+// const helmet = require("helmet")
+// const cookieParser = require("cookie-parser")
+// const fileUpload=require("express-fileupload")
+// const xss = require("xss-clean")
+
 const router = require("./src/routes/blogRoutes");
+
 const app = new express();
 
 // version control for better maintainability, debugging, updating
