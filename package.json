@@ -1,0 +1,29 @@
+{
+  "name": "ostad-assignment-3",
+  "version": "1.0.0",
+  "description": "**মডিউল ১৬  এর এসাইনমেন্ট:**\r <hr>\r In this assignment, you have to create a perfect Express.js Backend Blog Project Structure\r Requirements:",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Humaun Al Rasel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "xss-clean": "^0.1.4"
+  }
+}
