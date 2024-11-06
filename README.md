@@ -27,3 +27,11 @@ router.delete("/delete-blog",blogController.deleteBlog);
 
 It returns a message - ‘Blog delete successfully’
 
+
+```
+"METHOD.POST":"localhost:5000/api/v1/create-blog"
+"METHOD.GET":"localhost:5000/api/v1/read-blog"
+"METHOD.PUT":"localhost:5000/api/v1/update-blog"
+"METHOD.DELETE":"localhost:5000/api/v1/delete-blog"
+
+```

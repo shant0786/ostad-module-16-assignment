@@ -15,5 +15,5 @@ exports.updateBlog = (req, res) => {
     .json({ status: "success", data: "Blog updated successfully " });
 };
 exports.deleteBlog = (req, res) => {
-  res.status(200).json({ status: "success", data: "Blog delete successfully" });
+  res.status(200).json({ status: "success", data: "Blog deleted successfully" });
 };
